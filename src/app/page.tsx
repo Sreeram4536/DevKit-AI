@@ -1,8 +1,8 @@
 'use client';
 
 import React, { useState } from 'react';
-import { useChat, ChatWorkspace } from '@/src/features/chat';
-import { Sidebar, Header } from '@/src/components';
+import { useChat, ChatWorkspace } from '@/features/chat';
+import { Sidebar, Header } from '@/components';
 
 export default function Home() {
   const {
